@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/css/uikit.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit-icons.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+      
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background: white;
+  text-align: right;
+}
+.content {
+  flex: 1;
+  overflow: auto;
+}
+
+
+
+    </style>
+  </head>
+  <body class="uk-background-muted">
+    <div class="wrapper">
+      <div class="content">
+        <div style="height:1000px;">
+          
+  
+  
+  <div class="uk-offcanvas-content">
+    <div id="offcanvas-usage" uk-offcanvas>
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        
+          
+            <ul class="uk-nav">
+              <li class="uk-parent">
+                <a class="item" href="https://witwebdev1.github.io/webdev1-2018//topic-01-HTML/index.html">
+                  
+  <i class="fas fa-sitemap " style="color:#009688"> </i>
+HTML Basics 
+                </a>
+                <ul class="uk-nav-sub">
+                  
+                    
+                      <li>
+                        
+                          
+                            
+                              <a class="item"
+                                 href="https://witwebdev1.github.io/webdev1-2018//topic-01-HTML/talk-1/talk-1.pdf">
+  <i class="fas fa-object-group " style="color:#009688"> </i>
+ Module Overview 
+                                
+                              </a>
+                            
+                          
+                        
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        
+                          
+                            
+                              <a class="item"
+                                 href="https://witwebdev1.github.io/webdev1-2018//topic-01-HTML/talk-2/html-basics.pdf">
+  <i class="fas fa-object-group " style="color:#009688"> </i>
+HTML Basics 
+                                
+                              </a>
+                            
+                          
+                        
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        
+                          
+                            
+                              <a class="item"
+                                 href="https://witwebdev1.github.io/webdev1-2018//topic-01-HTML/book-00-first-html-page/index.html">
+  <i class="fas fa-flask " style="color:#00BCD4"> </i>
+Create your first HTML page
+                                
+                              </a>
+                            
+                          
+                        
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        
+                          
+                            
+                              <a class="item"
+                                 href="https://witwebdev1.github.io/webdev1-2018//topic-01-HTML/book-01-formatting-text/index.html">
+  <i class="fas fa-flask " style="color:#00BCD4"> </i>
+Formatting text
+                                
+                              </a>
+                            
+                          
+                        
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        
+                          
+                            
+                              <a class="item"
+                                 href="https://witwebdev1.github.io/webdev1-2018//topic-01-HTML/book-02-adding-image/index.html">
+  <i class="fas fa-flask " style="color:#00BCD4"> </i>
+Adding an image
+                                
+                              </a>
+                            
+                          
+                        
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        
+                          
+                            
+                              <a class="item"
+                                 href="https://witwebdev1.github.io/webdev1-2018//topic-01-HTML/book-04-linking-pages/index.html">
+  <i class="fas fa-flask " style="color:#00BCD4"> </i>
+Linking pages
+                                
+                              </a>
+                            
+                          
+                        
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        
+                          
+                            
+                              <a class="item"
+                                 href="https://witwebdev1.github.io/webdev1-2018//topic-01-HTML/book-05-validating-html/index.html">
+  <i class="fas fa-flask " style="color:#00BCD4"> </i>
+Validating HTML
+                                
+                              </a>
+                            
+                          
+                        
+                      </li>
+                    
+                  
+                </ul>
+              </li>
+            </ul>
+          
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="uk-flex uk-flex-center uk-flex-middle uk-text-center uk-padding-small" uk-grid>
+    
+  <div class="uk-padding">
+    <a href="#offcanvas-usage" uk-toggle title="Table of Contents" pos="bottom" uk-tooltip>
+      
+  <i class="fas fa-bars fa-3x" style="color:"> </i>
+
+    </a>
+  </div>
+
+    
+  <div class="uk-width-1-2@m  uk-card uk-card-default uk-padding-small">
+    <div uk-grid>
+      <div class="uk-width-1-5@m">
+        
+          
+  
+    <i class=" fa-4x" style="color:"></i>
+  
+
+        
+      </div>
+      <div class="uk-width-expand@m uk-text-left">
+        <h2>  Website Development 1  </h2>
+        <div class="uk-text-muted uk-text-small">
+          
+            All labs's in Module
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="uk-padding">
+    
+      
+  <li>
+    <a href="index.html" title="To the top level Topics for this Module" pos="bottom" uk-tooltip> 
+  <i class="fas fa-home fa-4x" style="color:"> </i>
+ </a>
+  </li>
+
+      
+  </div>
+
+    
+  
+    
+  
+
+    
+      
+
+  
+    <div class="uk-card uk-card-default uk-padding-small">
+      <ul class="uk-iconnav">
+        
+          
+  
+    
+      
+      
+  <li>
+    <a href="./talkwall.html" title="All slides's in module" pos="bottom" uk-tooltip> 
+  <i class="fas fa-object-group fa-2x" style="color:#009688"> </i>
+ </a>
+  </li>
+
+    
+  
+    
+      
+      
+  <li>
+    <a href="./labwall.html" title="All labs's in module" pos="bottom" uk-tooltip> 
+  <i class="fas fa-flask fa-2x" style="color:#00BCD4"> </i>
+ </a>
+  </li>
+
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+        
+        
+      </ul>
+    </div>
+  
+
+    
+    
+  
+
+  </div>
+
+  
+  <div class="uk-container uk-padding-small">
+    <div class="uk-child-width-1-4@s uk-flex uk-flex-center" uk-grid uk-height-match="target: > div > .uk-card">
+      
+        <div>
+          
+            
+              
+
+  
+  
+
+  <div class="uk-card uk-card-default 
+  
+    uk-card-hover
+  
+ uk-card-small uk-text-center uk-text-baseline uk-animation-fade">
+    
+  
+    
+      
+      
+    
+    <a href=topic-01-HTML/book-00-first-html-page/index.html>
+  
+
+    
+  <div class="uk-card-header">
+    <div uk-grid>
+      <div class="uk-width-expand@m">
+        <h3> Create your first HTML page</h3>
+      </div>
+      <div class="uk-width-1-4@m">
+        
+  <i class="fas fa-flask fa-2x" style="color:#00BCD4"> </i>
+
+        
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="uk-card-body">
+    
+      <img src="topic-01-HTML/book-00-first-html-page/img/main.png">
+    
+  </div>
+
+    
+  
+    </a>
+  
+
+    
+  
+
+    
+  
+    <div class="uk-card-footer">
+      <p> <p>This lab will firstly introduce you to the tools we will use during the web development module and secondly introduce you to creating, editing, saving and displaying a web page.</p></p>
+    </div>
+  
+
+    
+  
+
+  </div>
+
+
+
+            
+          
+        </div>
+      
+        <div>
+          
+            
+              
+
+  
+  
+
+  <div class="uk-card uk-card-default 
+  
+    uk-card-hover
+  
+ uk-card-small uk-text-center uk-text-baseline uk-animation-fade">
+    
+  
+    
+      
+      
+    
+    <a href=topic-01-HTML/book-01-formatting-text/index.html>
+  
+
+    
+  <div class="uk-card-header">
+    <div uk-grid>
+      <div class="uk-width-expand@m">
+        <h3> Formatting text</h3>
+      </div>
+      <div class="uk-width-1-4@m">
+        
+  <i class="fas fa-flask fa-2x" style="color:#00BCD4"> </i>
+
+        
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="uk-card-body">
+    
+      <img src="topic-01-HTML/book-01-formatting-text/img/main.jpg">
+    
+  </div>
+
+    
+  
+    </a>
+  
+
+    
+  
+
+    
+  
+    <div class="uk-card-footer">
+      <p> <p>This lab will introduce you to the HTML elements that allow you to format how text appears on your web pages.</p></p>
+    </div>
+  
+
+    
+  
+
+  </div>
+
+
+
+            
+          
+        </div>
+      
+        <div>
+          
+            
+              
+
+  
+  
+
+  <div class="uk-card uk-card-default 
+  
+    uk-card-hover
+  
+ uk-card-small uk-text-center uk-text-baseline uk-animation-fade">
+    
+  
+    
+      
+      
+    
+    <a href=topic-01-HTML/book-02-adding-image/index.html>
+  
+
+    
+  <div class="uk-card-header">
+    <div uk-grid>
+      <div class="uk-width-expand@m">
+        <h3> Adding an image</h3>
+      </div>
+      <div class="uk-width-1-4@m">
+        
+  <i class="fas fa-flask fa-2x" style="color:#00BCD4"> </i>
+
+        
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="uk-card-body">
+    
+      <img src="topic-01-HTML/book-02-adding-image/img/main.jpg">
+    
+  </div>
+
+    
+  
+    </a>
+  
+
+    
+  
+
+    
+  
+    <div class="uk-card-footer">
+      <p> <p>This lab will explain how to add an image to your web page. We&#39;ll do much more with images in the coming weeks but, for now, the basics.</p></p>
+    </div>
+  
+
+    
+  
+
+  </div>
+
+
+
+            
+          
+        </div>
+      
+        <div>
+          
+            
+              
+
+  
+  
+
+  <div class="uk-card uk-card-default 
+  
+    uk-card-hover
+  
+ uk-card-small uk-text-center uk-text-baseline uk-animation-fade">
+    
+  
+    
+      
+      
+    
+    <a href=topic-01-HTML/book-04-linking-pages/index.html>
+  
+
+    
+  <div class="uk-card-header">
+    <div uk-grid>
+      <div class="uk-width-expand@m">
+        <h3> Linking pages</h3>
+      </div>
+      <div class="uk-width-1-4@m">
+        
+  <i class="fas fa-flask fa-2x" style="color:#00BCD4"> </i>
+
+        
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="uk-card-body">
+    
+      <img src="topic-01-HTML/book-04-linking-pages/img/main.jpg">
+    
+  </div>
+
+    
+  
+    </a>
+  
+
+    
+  
+
+    
+  
+    <div class="uk-card-footer">
+      <p> <p>In this lab, you will learn how web pages are linked together.</p></p>
+    </div>
+  
+
+    
+  
+
+  </div>
+
+
+
+            
+          
+        </div>
+      
+        <div>
+          
+            
+              
+
+  
+  
+
+  <div class="uk-card uk-card-default 
+  
+    uk-card-hover
+  
+ uk-card-small uk-text-center uk-text-baseline uk-animation-fade">
+    
+  
+    
+      
+      
+    
+    <a href=topic-01-HTML/book-05-validating-html/index.html>
+  
+
+    
+  <div class="uk-card-header">
+    <div uk-grid>
+      <div class="uk-width-expand@m">
+        <h3> Validating HTML</h3>
+      </div>
+      <div class="uk-width-1-4@m">
+        
+  <i class="fas fa-flask fa-2x" style="color:#00BCD4"> </i>
+
+        
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="uk-card-body">
+    
+      <img src="topic-01-HTML/book-05-validating-html/img/main.png">
+    
+  </div>
+
+    
+  
+    </a>
+  
+
+    
+  
+
+    
+  
+    <div class="uk-card-footer">
+      <p> <p>In this lab, you will use an online tool to validate your HTML code and check that it is correctly structured.</p></p>
+    </div>
+  
+
+    
+  
+
+  </div>
+
+
+
+            
+          
+        </div>
+      
+    </div>
+  </div>
+
+
+        </div>
+      </div>
+      <div class="footer uk-text-small uk-text-right uk-text-muted"> Powered by <a
+          href="https://github.com/edeleastar/tutors-ts">tutors-ts.</a>
+        
+      </div>
+    </div>
+  </body>
+</html>
